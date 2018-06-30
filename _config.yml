@@ -1,0 +1,27 @@
+# Dependencies
+markdown:	redcarpet
+rouge:	true
+
+# Permalinks
+permalink:	/blog/:title
+
+# Setup
+title:		MARVIN
+tagline:	'Marvin Quadcopter'
+description:	'A computer vision-enabled autonomous quadcopter'
+url:		http://marvin-quad.design
+
+author:
+  name:	'Hunter Mellema, Jeff Maggio, Joe Bartelmo'
+
+plugins: [jekyll-paginate]
+
+paginate:	6
+
+# Custom vars
+icon: /assets/images/propeller.svg
+cover: /assets/images/background.png
+version:	1.0.0
+github:
+  repo: https://github.com/mellemahp/marvin-blog
+copyright: <p class="copyright">&copy;2018, <a href="http://hmellema.info" target="_blank">Hunter Mellema</a>. <a href="http://creativecommons.org/licenses/by-nc/2.5/br/" target="_blank">Some rights reserved</a>.</p>
